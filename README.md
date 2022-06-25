@@ -22,18 +22,14 @@ The summary of the results is as follows:
 
 |Candidate Name|Number of Votes|Percentage of Votes|
 |----------------|--------------|---------------------|
-|Dianna DeGette|272,892|73.8%|
+|Dianna DeGette[^2]|272,892|73.8%|
 |Raymon Anthony Doane|11,606|3.1%|
 |Charles Casper Stockham|85213|23.0%|
 
-rere
-
-
-
-
-
-
+## Future Use of the Script 
+The script developed in Python for this audit can be easily adapted for election audits with some simply modifications.  A single report for various elected positions, from federal congressional to local city coucil, races can be housed in one report.  To accomplish this, an additional field will need to be added to the source data to capture the election type.  The script can also be adapted to show the results of ballot initiatives. This would involve changing the candidate portion of the report to reflect the nummber of for/against votes, which could then ultimately determine whether the ballot measure was successful.  Slight modifications would be required in the script to tally the results as a two-way decision rather than by candidate name. 
 
 [^1]: County with the largest number of votes
+[^2]: Winner of the election 
 
 
